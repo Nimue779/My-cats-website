@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(255, 238, 226);
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #999;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.title h1 {
+    font-size: 70px;
+    margin: 0;
+    letter-spacing: 8px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    border-top: 2px solid #999;
+}
+
+nav a {
+    flex: 1;
+    text-align: center;
+    padding: 15px 0;
+    text-decoration: none;
+    color: black;
+    border-right: 2px solid #999;
+    box-sizing: border-box;
+}
+
+nav a:first-child {
+    border-left: 2px solid #999;
+}
+
+/* the page you are currently on */
+nav a.current {
+    background-color: rgb(245, 110, 110);
+}
+
+/* colour when you hover over another box */
+nav a:hover {
+    background-color: rgb(255, 157, 128);
+}
