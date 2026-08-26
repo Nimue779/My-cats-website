@@ -52,16 +52,30 @@ nav a:hover {
 
 main {
     padding: 20px;
+    display: flex;
+    gap: 40px;
 }
 
-main h2 {
-    margin-bottom: 20px;
+.my-cats {
+    width: 35%;
 }
 
-.cats-grid {
+.my-cats h2 {
+    margin-top: 0;
+}
+
+.my-cats-boxes {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.other-cats {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
+    padding-top: 3.03%;
 }
 
 .cat {
@@ -72,4 +86,5 @@ main h2 {
     width: 100%;
     height: 180px;
     border: 1px solid #999;
+    box-sizing: border-box;
 }
