@@ -4,7 +4,7 @@ body {
 
 header {
     text-align: center;
-    border-bottom: 2px solid #999;
+    border-bottom: 2px solid rgb(110, 67, 36);
 }
 
 .title {
@@ -23,7 +23,7 @@ header {
 nav {
     display: flex;
     width: 100%;
-    border-top: 2px solid #999;
+    border-top: 2px solid rgb(110, 67, 36);
 }
 
 nav a {
@@ -32,12 +32,12 @@ nav a {
     padding: 15px 0;
     text-decoration: none;
     color: black;
-    border-right: 2px solid #999;
+    border-right: 2px solid rgb(110, 67, 36);
     box-sizing: border-box;
 }
 
 nav a:first-child {
-    border-left: 2px solid #999;
+    border-left: 2px solid rgb(110, 67, 36);
 }
 
 /* the page you are currently on */
