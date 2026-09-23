@@ -90,3 +90,9 @@ main {
     box-sizing: border-box;
 }
 
+.cat-image img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
