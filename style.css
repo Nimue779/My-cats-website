@@ -88,7 +88,7 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 260px); /* Sets exact width seen in mockup */
   gap: 25px;
-  margin-top: 45px;
+  margin-top: 47px;
 }
 
 /* Card & Image Box Sizing */
