@@ -111,3 +111,34 @@ main {
   object-fit: cover;
   display: block;
 }
+
+/* famous cat boxes */
+.famous-cat {
+  display: flex;
+  align-items: center; /* Vertically centers the image next to text */
+  gap: 20px; /* Space between photo and paragraph */
+  margin-bottom: 30px; /* Space between different cat entries */
+}
+
+/* Image box */
+.famous-cat-image {
+  width: 150px; /* Adjust to match your preferred image box width */
+  height: 150px;
+  flex-shrink: 0; /* Prevents image box from squeezing */
+  border: 1px solid #ccc; /* Optional border around image */
+  overflow: hidden;
+}
+
+.famous-cat-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Text styling */
+.famous-cat-info {
+  flex: 1;
+  font-size: 16px;
+  line-height: 1.5;
+}
