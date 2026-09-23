@@ -56,38 +56,52 @@ main {
     gap: 40px;
 }
 
+/* Container that places left and right sections side-by-side */
+.cats-section {
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+/* Left Section */
 .my-cats {
-    width: 35%;
+  width: 530px; /* Fits exactly two cat cards side-by-side */
+  flex-shrink: 0;
 }
 
 .my-cats h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .my-cats-boxes {
-  width: 200px;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+  display: flex;
+  gap: 25px;
 }
 
+.subtext {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+/* Right Section: 3-column grid */
 .other-cats {
-    flex: 1;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    padding-top: 3.03%;
+  display: grid;
+  grid-template-columns: repeat(3, 260px); /* Sets exact width seen in mockup */
+  gap: 25px;
 }
 
+/* Card & Image Box Sizing */
 .cat {
-    text-align: center;
+  text-align: center;
+  width: 100%;
 }
 
 .cat-image {
-    width: 100%;
-    height: 180px;
-    border: 1px solid #999;
-    box-sizing: border-box;
+  width: 100%;
+  height: 169px; /* Matches the 260x169 dimensions from your layout */
+  border: 1px solid #999;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .cat-image img {
