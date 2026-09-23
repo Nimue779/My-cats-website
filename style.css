@@ -65,7 +65,7 @@ main {
 }
 
 .my-cats-boxes {
-  width: 100%;
+  width: 200px;
   height: 100%;
   object-fit: cover;
   display: block;
@@ -84,7 +84,7 @@ main {
 }
 
 .cat-image {
-    width: 180px;
+    width: 100%;
     height: 180px;
     border: 1px solid #999;
     box-sizing: border-box;
