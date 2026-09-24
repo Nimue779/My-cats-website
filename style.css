@@ -34,6 +34,7 @@ nav a {
     color: black;
     border-right: 2px solid rgb(110, 67, 36);
     box-sizing: border-box;
+    font-weight: bold;
 }
 
 nav a:first-child {
@@ -80,7 +81,7 @@ main {
 
 .subtext {
   margin-top: 15px;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 /* friends cats grid */
