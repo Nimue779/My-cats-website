@@ -117,6 +117,9 @@ main {
   gap: 30px;
   max-width: 900px;
   margin: 30px auto;
+  width: 100%;
+  padding: 30px 20px;
+  box-sizing: border-box;
 }
 /* famous cat boxes */
 .famous-cat {
