@@ -149,7 +149,7 @@ main {
 
 /* Text styling */
 .famous-cat-info {
-  flex: 1;
+  flex-grow: 1;
   font-size: 20px;
   line-height: 1.5;
   width: 100%;
