@@ -76,7 +76,8 @@ main {
 
 .my-cats-boxes {
   display: flex;
-  gap: 25px;
+  gap: 60px;
+  margin-right: 40px;
 }
 
 .subtext {
@@ -88,7 +89,7 @@ main {
 .other-cats {
   display: grid;
   grid-template-columns: repeat(3, 260px); 
-  gap: 25px;
+  gap: 60px;
   margin-top: 47px;
 }
 
