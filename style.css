@@ -154,3 +154,62 @@ main {
   line-height: 1.5;
   width: 100%;
 }
+
+/* adoption page section */
+.adoption-page {
+  padding: 30px 40px;
+  box-sizing: border-box;
+}
+
+.adoption-page h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.intro-text {
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.infographic-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.infographic-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* rounded corners */
+  display: block;
+}
+
+/* where to adopt section */
+.rescue-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.rescue-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex: 1;
+}
+
+.rescue-item img {
+  width: 120px;
+  height: 80px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.rescue-item a {
+  color: #000;
+  font-size: 16px;
+  line-height: 1.3;
+}
