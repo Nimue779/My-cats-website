@@ -165,14 +165,13 @@ main {
 }
 
 .adoption-page h2 {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin-top: 5px;
   width: 100%;
 }
 
 .intro-text {
   margin-bottom: 25px;
-  font-size: 16px;
+  font-size: 20px;
   width: 100%;
 }
 
@@ -180,13 +179,13 @@ main {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin: 30px 0 40px 0;
 }
 
 .infographic-img {
-  max-width: 100%;
+  width: 100%;
+  max-width: 950px;
   height: auto;
-  border-radius: 8px; /* rounded corners */
   display: block;
 }
 
@@ -203,7 +202,7 @@ main {
   display: flex;
   align-items: center;
   gap: 15px;
-  flex: 1;
+  flex: 1;  
 }
 
 .rescue-item img {
@@ -215,6 +214,6 @@ main {
 
 .rescue-item a {
   color: #000;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.3;
 }
