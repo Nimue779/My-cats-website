@@ -67,6 +67,7 @@ main {
 .my-cats {
   width: 530px; 
   flex-shrink: 0;
+  margin-left: 65px;
 }
 
 .my-cats h2 {
